@@ -1320,6 +1320,34 @@ textarea:focus {
 /*----------------------------------------*/
 /*  2.2 Buttons
 /*----------------------------------------*/
+.rs-btn-ddd {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--rs-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 21px;
+
+  transition: all 0.3s linear;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 500;
+  position: relative;
+}
+.rs-btn-ddd:hover {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--rs-white);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 21px;
+
+  transition: all 0.3s linear;
+  border-radius: 30px 30px 30px 30px;
+  font-weight: 500;
+  position: relative;
+}
 .rs-btn {
   font-size: 18px;
   text-transform: capitalize;
@@ -6286,6 +6314,7 @@ html.lenis body {
   opacity: 1;
   visibility: visible;
   top: 80px;
+  
 }
 .rs-header-category {
   position: relative;
@@ -7059,6 +7088,7 @@ html.lenis body {
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.1;
+  color: var(--rs-bg-light-grey);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .rs-banner-three .rs-banner-title {
@@ -9136,6 +9166,7 @@ html.lenis body {
 }
 .main-menu ul li a.active {
   color: var(--rs-theme-primary);
+  
 }
 .main-menu > ul {
   display: inline-flex;
@@ -9161,6 +9192,22 @@ html.lenis body {
   position: relative;
   list-style: none;
 }
+
+/* ----only home page nav bar color change */
+
+/* .main-menu li .download-cv {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--rs-black);
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  position: relative;
+  transition: all 0.3s linear;
+} */
+
 .main-menu li a {
   font-size: 18px;
   font-weight: 600;
@@ -9175,7 +9222,6 @@ html.lenis body {
 }
 .main-menu li.home-remove-icon > a::after {
   /* content: "\f107"; */
-  
 }
 
 
